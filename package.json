@@ -1,0 +1,42 @@
+{
+  "name": "repo-anchor-audit",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Check local Markdown links and heading anchors offline, with no dependencies.",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "bin": {
+    "repo-anchor-audit": "bin/repo-anchor-audit.js"
+  },
+  "exports": "./src/index.js",
+  "files": [
+    "bin/",
+    "src/",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "check": "node bin/repo-anchor-audit.js . --exclude examples/broken",
+    "prepack": "node --test"
+  },
+  "license": "MIT",
+  "keywords": [
+    "markdown",
+    "links",
+    "anchors",
+    "documentation",
+    "offline"
+  ],
+  "repository": {
+    "url": "https://github.com/Arkyyzz/repo-anchor-audit.git",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/Arkyyzz/repo-anchor-audit/issues"
+  },
+  "homepage": "https://github.com/Arkyyzz/repo-anchor-audit#readme"
+}

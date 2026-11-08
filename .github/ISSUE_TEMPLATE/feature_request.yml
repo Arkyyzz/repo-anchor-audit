@@ -1,0 +1,15 @@
+name: Feature request
+description: Describe a documentation problem the tool could solve
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: What real task is difficult today?
+      description: Include a small example and any workaround you use.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior and tradeoffs
+      description: Explain the intended renderer or hosting platform if relevant.
