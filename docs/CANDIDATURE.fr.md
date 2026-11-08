@@ -1,6 +1,6 @@
 # Préparer une candidature fondée sur des preuves
 
-Commencer par [les conditions vérifiées](PROGRAMME_CLAUDE.fr.md). Ce document est un brouillon de travail : aucun dossier n'a été envoyé. Les informations personnelles et l'historique GitHub ne sont pas connus.
+Commencer par [les conditions vérifiées](PROGRAMME_CLAUDE.fr.md). Ce document est un brouillon de travail : aucun dossier n'a été envoyé. Le compte de publication est Arkyyzz ; les prérequis personnels et les preuves d'activité nécessaires n'ont pas été vérifiés.
 
 ## Décider s'il est pertinent de candidater
 

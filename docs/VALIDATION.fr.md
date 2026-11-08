@@ -1,4 +1,4 @@
-# Validation locale du 8 novembre 2026
+# Validation du 8 novembre 2026
 
 Environnement observé : **Windows, Node.js v24.22.1**. Aucun paquet tiers installé pour lancer l'outil ou ses tests. Les vérifications utilisent les sources livrées.
 
@@ -8,7 +8,7 @@ Environnement observé : **Windows, Node.js v24.22.1**. Aucun paquet tiers insta
 - Audit de la documentation du projet, hors exemple volontairement incorrect : aucun diagnostic.
 - Exemple valide : sortie `0`, 5 liens locaux contrôlés, 1 lien externe ignoré.
 - Exemple incorrect : sortie `1`, exactement trois diagnostics attendus : fichier manquant, ancre manquante, référence non définie. Les rapports observés sont dans les fichiers `expected.json` des deux dossiers d'exemples.
-- Aucune publication, aucune connexion de compte ni aucun envoi de candidature effectué.
+- Lors de la préparation locale initiale, aucune publication ni connexion de compte n'avait été effectuée. La publication ultérieure est consignée ci-dessous ; aucune candidature n'a été envoyée.
 
 ## Ce que les tests établissent
 
@@ -31,8 +31,21 @@ node bin/repo-anchor-audit.js examples/broken --format json
 
 La dernière commande renvoie volontairement `1`. Les autres doivent renvoyer `0`.
 
+## Validation publique complémentaire
+
+Le [commit initial publié](https://github.com/Arkyyzz/repo-anchor-audit/commit/ac2e5023b7a6e5dd6f54b8bcb4c8f46344b70c93) a déclenché le [run GitHub Actions 42434350088](https://github.com/Arkyyzz/repo-anchor-audit/actions/runs/42434350088). Les quatre jobs se sont terminés avec le résultat `success` :
+
+| Système | Node.js | Résultat |
+| --- | --- | --- |
+| Windows | 22 | Réussi |
+| Windows | 24 | Réussi |
+| Ubuntu | 22 | Réussi |
+| Ubuntu | 24 | Réussi |
+
+Chaque job exécute les tests et l'audit de la documentation. Les 32 fichiers publiés ont aussi été comparés aux fichiers préparés par leurs empreintes Git.
+
 ## Limites de cette validation
 
-La matrice Linux/Windows et Node.js 22/24 est configurée dans la CI, mais aucun résultat GitHub Actions distant n'est revendiqué. Seul l'environnement local indiqué ci-dessus a été exécuté ici. npm n'était pas disponible dans cet environnement ; l'archive npm et sa publication restent à vérifier avec votre installation.
+Les résultats distants ci-dessus concernent précisément le commit indiqué. Ils ne garantissent pas les futures versions. npm n'était pas disponible dans l'environnement local ; l'archive npm et sa publication restent à vérifier avec votre installation.
 
 Les tests ne prouvent ni une conformité CommonMark/GFM complète, ni une compatibilité avec tous les générateurs de documentation, ni l'absence de tous les défauts. Le scanner ne vérifie pas les URL externes. Le système de fichiers doit rester stable pendant l'audit. Voir [l'architecture et le périmètre exact](ARCHITECTURE.md).

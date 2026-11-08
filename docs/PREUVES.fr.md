@@ -8,11 +8,17 @@ Ce journal permet de distinguer ce qui existe de ce qui reste à établir. Il ne
 | --- | --- |
 | Code initial | Préparé localement avec assistance IA ; voir les sources et le rapport de validation livré. |
 | Auteur humain / mainteneur public | À désigner par l'utilisateur après revue. |
-| Dépôt public / version publique | Pas publiés dans cette intervention. |
+| Dépôt public / version publique | Pas publiés lors de la préparation initiale ; voir le suivi ci-dessous. |
 | Utilisateurs indépendants | Non établis. |
 | Téléchargements / dépendances / score critique | Non établis, aucun nombre revendiqué. |
 | PR dans des projets externes | Aucune envoyée ni fusionnée dans cette intervention. |
 | Abonnement / candidature | Aucun abonnement obtenu, aucune candidature envoyée. |
+
+## Suivi : première publication du 8 novembre 2026
+
+Le dépôt [Arkyyzz/repo-anchor-audit](https://github.com/Arkyyzz/repo-anchor-audit) est désormais public. Le [commit initial](https://github.com/Arkyyzz/repo-anchor-audit/commit/ac2e5023b7a6e5dd6f54b8bcb4c8f46344b70c93) contient les 32 fichiers préparés, avec leurs métadonnées de dépôt. Leur contenu publié a été comparé au contenu préparé.
+
+Les [quatre jobs GitHub Actions](https://github.com/Arkyyzz/repo-anchor-audit/actions/runs/42434350088) ont réussi pour ce commit : Linux/Windows, Node.js 22/24. La publication et cette validation n'établissent aucune adoption indépendante. Aucun paquet npm, aucune release GitHub, aucune PR externe et aucune candidature n'ont été publiés à ce stade.
 
 ## Enregistrer les travaux futurs
 

@@ -30,7 +30,7 @@ Source : [conditions officielles](https://www.anthropic.com/claude-for-oss-terms
 
 ## Ce que cela implique pour ce projet
 
-**État établi :** cette livraison contient du code local, des tests et des documents. Elle n'établit ni publication publique, ni adoption, ni contribution acceptée par un autre projet. L'âge du compte, la résidence, le rôle et l'historique de l'utilisateur restent inconnus.
+**État établi :** les sources sont maintenant [publiées sur GitHub](https://github.com/Arkyyzz/repo-anchor-audit), avec leurs tests et documents ; voir le [journal de publication](PREUVES.fr.md). Aucune adoption ni contribution acceptée par un autre projet n'est établie. Les prérequis personnels de l'utilisateur n'ont pas été vérifiés.
 
 Un nouveau dépôt peut devenir utile. Il ne prouve pas aujourd'hui un impact significatif sur l'écosystème. Si vous avez déjà une activité pertinente, commencez par ses preuves vérifiables. Sinon, publiez et maintenez le projet pour ses utilisateurs avant d'envisager une candidature. Aucun calendrier d'adoption ne peut être promis.
 

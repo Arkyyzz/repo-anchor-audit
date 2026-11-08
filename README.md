@@ -2,7 +2,7 @@
 
 Find broken local links and heading fragments in Markdown documentation, without sending repository content to a server.
 
-This is an initial, AI-assisted implementation prepared for human review. It has not been published to a registry, and no external users or adoption are claimed. The working package name must be checked before publication.
+This is an initial, AI-assisted implementation published as source on [GitHub](https://github.com/Arkyyzz/repo-anchor-audit). It has not been published to a registry, and no external users or adoption are claimed. The working package name must be checked before registry publication.
 
 [Français](README.fr.md) · [Contributing](CONTRIBUTING.md) · [Architecture and limits](docs/ARCHITECTURE.md) · [MIT license](LICENSE)
 
@@ -78,6 +78,6 @@ node --test
 node bin/repo-anchor-audit.js . --exclude examples/broken
 ```
 
-The prepared CI runs tests and a documentation audit on Linux and Windows, using Node.js 22 and 24. Its actual remote status only becomes known after you publish the repository and run it.
+CI runs tests and a documentation audit on Linux and Windows, using Node.js 22 and 24. All four jobs passed for the initial publication on 8 November 2026; see the [validation record](docs/VALIDATION.fr.md) for the observed run and its limits.
 
 [Publication guide in French](docs/PUBLISHING.fr.md) · [Roadmap](docs/ROADMAP.fr.md) · [Security reporting](SECURITY.md) · [Changelog](CHANGELOG.md)

@@ -1,6 +1,6 @@
 # Publier une première version
 
-Le code est préparé localement. Aucun dépôt distant, compte de registre, commit public ou candidature n'a été créé en votre nom. Les commandes suivantes sont à exécuter après votre revue, depuis le dossier du projet. Les mots en majuscules sont à remplacer ; ne les publiez pas tels quels.
+Le dépôt de référence est désormais [Arkyyzz/repo-anchor-audit](https://github.com/Arkyyzz/repo-anchor-audit) ; sa première publication est consignée dans le [journal des preuves](PREUVES.fr.md). Ce guide explique les étapes d'une publication depuis zéro, notamment pour une réutilisation sous votre propre nom. Aucun paquet npm ni dossier de candidature n'a été envoyé. Exécuter les commandes adaptées après revue, depuis le dossier du projet. Les mots en majuscules sont à remplacer.
 
 ## 1. Revoir et personnaliser
 

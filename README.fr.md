@@ -2,7 +2,7 @@
 
 Un outil local pour repérer les liens cassés et les ancres manquantes dans la documentation Markdown d'un dépôt, sans transmettre son contenu à un service.
 
-Cette première version a été préparée avec une assistance IA et doit être revue par une personne avant publication. Aucun utilisateur externe, téléchargement ou déploiement public n'est revendiqué. Le nom du paquet reste un nom de travail.
+Cette première version, préparée avec une assistance IA, est publiée en source sur [GitHub](https://github.com/Arkyyzz/repo-anchor-audit). Aucun utilisateur externe ni téléchargement n'est revendiqué. Le nom du paquet reste à vérifier avant une éventuelle publication sur npm.
 
 [English](README.md) · [Contribuer](CONTRIBUTING.md) · [Limites techniques](docs/ARCHITECTURE.md) · [Licence MIT](LICENSE)
 
@@ -26,7 +26,7 @@ Les liens ayant un schéma d'URL sont ignorés et comptés. Les liens vers des d
 
 Le scanner ne remplace pas un moteur CommonMark ou GitHub complet. Consulter les [limites précises](docs/ARCHITECTURE.md) avant d'en faire un contrôle bloquant.
 
-Le [rapport de validation locale](docs/VALIDATION.fr.md) décrit les résultats observés et les plateformes restant à vérifier.
+Le [rapport de validation](docs/VALIDATION.fr.md) décrit les résultats locaux et la réussite des quatre configurations GitHub : Windows/Linux, Node.js 22/24, lors de la première publication.
 
 ## Options et résultats
 
